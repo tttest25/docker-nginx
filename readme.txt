@@ -1,3 +1,4 @@
+Proto for check cross window communication
 App for proto 
 
  docker run -it --rm -d -p 8080:80 --name web nginx
