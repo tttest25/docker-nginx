@@ -38,6 +38,9 @@ xhr.onreadystatechange = function() {//Вызывает функцию при с
   if( xhr.status == 200) {
       // Запрос завершён. Здесь можно обрабатывать результат.
       sendMessage(' === Test2 send data is success and finished!');
+      newDiv = document.createElement("div");
+      newDiv.innerHTML = "данные успешно направлены ";
+      document.body.appendChild(newDiv);
   } else {
       console.log(xhr);
       sendMessage(' !!! Test2 send data error');

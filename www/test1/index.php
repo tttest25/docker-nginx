@@ -79,6 +79,8 @@ if (!file_exists($myId)) {
 		  {
 		    windowObjectReference = window.open("http://test2.gorodperm.ru/index.php?myId="+myId,
 		   "Test2", "popup");
+		   windowObjectReference.onload = () => { alert('Booyah ! ')}
+
 		    /* then create it. The new window will be created and
 		       will be brought on top of any other window. */
 			

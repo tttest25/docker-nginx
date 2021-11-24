@@ -4,8 +4,9 @@ App for proto
 
 
 
- 
+ For reading
 https://javascript.info/cross-window-communication
 https://learn.javascript.ru/xhr-forms
 
+ For example
 https://gist.github.com/mbajur/8325540
