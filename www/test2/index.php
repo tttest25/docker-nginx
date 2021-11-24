@@ -87,6 +87,8 @@ EOT;
     </form>
 
     <input type=button onclick="sendMessage('Button click!!! from test2'); return false;" value="Message to test1"/>
+    <input type=button onclick="window.close();" value="Close Window"/>
+    
 
     
 

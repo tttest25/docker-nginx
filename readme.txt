@@ -8,4 +8,4 @@ App for proto
 https://javascript.info/cross-window-communication
 https://learn.javascript.ru/xhr-forms
 
- 
+https://gist.github.com/mbajur/8325540
